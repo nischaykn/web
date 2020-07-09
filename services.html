@@ -1,0 +1,132 @@
+<html>
+<center>
+<head>
+<title>services</title>
+</head>
+<style>
+		body{
+				background:url('') no-repeat;
+				background-size:cover;
+				font-family:montserrat;
+			} 
+		ul{
+			float:right;
+			list-style-type: none;
+			margin-top:25 px;
+			font-size:25;
+			}
+		ul li{
+			display:inline-block;
+			}
+		ul li a{
+			color:white;
+			padding: 5px 20px;
+			border:1px solid black transparent;
+			}
+		ul li a:hover{
+			background-color:white;
+			color:black;
+			border-radius:35%
+			}
+		ul li.active a{
+			background-color:white;
+			color:black;
+			border-radius:35%
+			}
+		nav{
+			background:#003366;
+			height:80px;
+			width:100%;
+			}
+		.logo{
+			color:white;
+			font-size:50px;
+			line-height:80px;
+			font-weight:bold;
+			font-family:algerian;
+			margin-right:450px;
+			} 
+		.container{
+					max-width:1100px;
+					margin:auto;
+					overflow:auto;
+					padding: 0 2rem;
+			}
+		img{
+			width:100%;
+		}
+		.card{
+				display:grid;
+				align-items:center;
+				justify-content:center;
+				grid-template-columns:repeat(2,1fr);
+				grid-gap:3rem;
+				background:#f1f1f1;
+				margin-bottom:3rem;	
+			}
+		.card:nth-child(even) img{
+			order:2;}
+		.card p{
+			font-size:50px;
+			font-weight:bold;
+			font-family:ink free;
+			}
+			
+		@media(max-width:958px){
+			label.logo{
+				font-size:30px;
+				padding-left:30px;
+				}
+			.navi  li a{
+					font-size:15px;
+					display:block;
+					background:#003366;
+				}
+			.card{
+				display:block;
+				}
+			}
+			
+</style>
+<body>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<nav>
+<div>
+	<div class="search-box">
+		<label class="logo">RAM & CO</label>
+		<ul class="navi">
+			<li><a href="web.html">HOME</a></li>
+			<li><a href="about us.html">About us</a></li>
+			<li><a href="services.html">Servises</a></li>
+			<li><a href="">Shop</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<main class="container">
+<section class="card" data-aos="fade-left"  data-aos-delay="300">
+<img src="delivery.jpg">
+<div class="p">
+	<p>we diliver the best to your door!!</p>
+</div>
+</section>
+<section class="card" data-aos="fade-right" data-aos-delay="300">
+<img src="items.jpg">
+<div class="p">
+	<p>we asure you the quality that we sell</p>
+</div>
+</section>
+<section class="card" data-aos="fade-left" data-aos-delay="300">
+<img src="sodexo.jpg">
+<div class="p">
+	<p>also walk in to our store with sodexo passes </p>
+</div>
+</section>
+
+</main>
+</body>
+</html>

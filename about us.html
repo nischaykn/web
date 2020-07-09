@@ -1,0 +1,199 @@
+<html>
+<center>
+<head>
+<title>about us</title>
+</head>
+
+<style>
+		body{
+			margin:0;
+			padding:0;
+		} 
+		ul{
+			float:right;
+			list-style-type: none;
+			margin-top:25 px;
+			font-size:25;
+			}
+		ul li{
+			display:inline-block;
+			}
+		ul li a{
+			color:white;
+			padding: 5px 20px;
+			border:1px solid black transparent;
+			}
+		ul li a:hover{
+			background-color:white;
+			color:black;
+			border-radius:35%
+			}
+		ul li.active a{
+			background-color:white;
+			color:black;
+			border-radius:35%
+			}
+		nav{
+			background:#003366;
+			height:80px;
+			width:100%;
+			}
+		.logo{
+			color:white;
+			font-size:50px;
+			line-height:80px;
+			font-weight:bold;
+			font-family:algerian;
+			margin-right:450px;
+			} 
+		section{
+			animation:tarnsitionIn 1s;
+			width:100%;
+			height:100vh;
+			}
+		.para{
+			width:100%;
+			height:100vh;
+			display:flex;
+			align-items:center;
+			justify-content:center;
+			background:url('shop3.jpg') no-repeat;
+			background-size:cover;
+			font-family:Forte;
+			font-size:150%;
+			}
+		.team{
+			background-color:#203e6e;
+			padding:30px;
+			}
+		.team h1{
+			font-size:100px;
+			font-style:bold;
+			color:white;
+			margin-bottom:20px;
+			margin-top:30px;
+			}
+		hr{
+			display:bock;
+			margin:auto;
+			width:400px;
+			height:0.10px;
+			background:white;
+			margin-bottom:40px;
+			}
+		.ima img{
+			border-radius:50%;
+			margin:0 30px;
+			width:160px;
+			height:160px;
+			overflow:hidden;
+			}
+		.ima{
+			margin-top:50px;
+			margin-bottom:50px;
+			}
+		.name{
+			margin-top:40px;
+			color:white;
+			font-size:40px;
+			}
+		.name1{
+			margin-bottom:20%;
+			color:white;
+			font-size:20px;
+			}
+		.line{
+			width:100px;
+			margin-bottom:10px;
+			}
+		.footer{
+			width=100%;
+			height=auto;
+			margin=auto;
+			background:#1B2631;
+			padding:110px 0px;
+		}
+		.logo1{
+			color:white;
+			font-size:50px;
+			line-height:80px;
+			font-weight:bold;
+			font-family:algerian;
+			float:left;
+			margin-top:0px;
+			}
+			.p{
+				color:white;
+				}
+			
+		@keyframes tarnsitionIn{
+			from{
+					opacity:0;
+					transform:translateY(-10deg);
+			}
+			to{
+					opacity:1;
+					transform:translateY(0);
+			}
+		}
+			
+			
+			
+</style>
+<head>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<body >
+<nav>
+<div>
+	<div class="search-box">
+		<label class="logo">RAM & CO</label>
+		<ul class="navi">
+			<li><a href="web.html">HOME</a></li>
+			<li><a href="about us.html">About us</a></li>
+			<li><a href="services.html">Servises</a></li>
+			<li><a href="">Shop</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<section>
+<div class="para">
+	<p> "Shopping for specialty groceries. ...<br/>
+		We put brands on the map and give customers and <br/>
+		independent grocers opportunities to explore,<br/>
+		sample or purchase products that have limited distribution.<br/>
+		Our selection is innovative, growing, affordable, and ready for you to browse".<br/></p>
+</div>
+</section>
+<section data-aos="flip-up" data-aos-delay=300>
+<div class="team">
+	<h1>ME!</h1>
+	<hr>
+	<div class="ima">
+	<img src="ima.jpg">
+	</div>
+	<span class="name">Chandan kasal</span><br/>
+	<hr class="line">
+	<span class="name1">director</span>
+</div>
+<div class="footer" data-aos="fade-left"  data-aos-delay="300">>
+	<div class="social">
+		<ul>
+			<li><a href="https://www.facebook.com/search/top/?q=chandan%20kaasal" ><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" ><i class="fa fa-instagram"></i></a></li>
+			<li><a href="#" ><i class="fa fa-Google"></i></a></li>
+		</ul>
+	</div>
+<div class="logo1">
+<label>RAM & CO</label></div>
+<p class="p">contact us:9845352474 | 08092-235110</p>
+</div>
+</section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
